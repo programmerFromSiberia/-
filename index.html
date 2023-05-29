@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Регистрация / Авторизация</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main class="container">
+		<h1>Регистрация / Авторизация</h1>
+		<form id="registration-form">
+			<label for="username">Имя пользователя:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Пароль:</label>
+			<input type="password" id="password" name="password" required>
+			<button type="submit">Зарегистрироваться</button>
+		</form>
+		<form id="login-form">
+			<label for="username-login">Имя пользователя:</label>
+			<input type="text" id="username-login" name="username-login" required>
+			<label for="password-login">Пароль:</label>
+			<input type="password" id="password-login" name="password-login" required>
+			<button type="submit">Войти</button>
+		</form>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>
